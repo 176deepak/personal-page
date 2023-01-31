@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-@media screen(width: 800px){
+@media only screen and (width: 720px){
     .container{
         display: block;
         position:fixed;
