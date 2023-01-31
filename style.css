@@ -4,6 +4,251 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+@media only screen and (max-width: 800px){
+    .container{
+        display: block;
+        position:fixed;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        margin-right: 5px;
+        overflow-x: hidden;
+        top: 0;
+        left: 0;
+        padding: 0em;
+    } 
+    
+    .nav{
+        display: block;
+        position:fixed;
+        width: 100%;
+        background-color: #101010;
+        top: 0;
+        left: 0;
+        padding: 0em;
+    }
+    
+    .nav ul{
+        float: right;
+        display: grid;
+        grid-template-columns: auto auto auto auto;   
+    }
+    
+    .nav li{
+        list-style-type: none;
+        border: none;
+        margin-right: 2vw;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    .nav a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    } 
+    
+    .nav a:hover{
+        color: #98e8cd;
+    }
+    
+    .block1{
+        display: grid;
+        grid-template-columns: 70vw 30vw;
+        margin: 5rem 0 0 0 ;
+    }
+    
+    .intro{
+        margin: 1 0 0 3vw;
+    
+    }
+    .intro h1{
+        color: white;
+        line-height: 10px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .intro h5{
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+    }
+    .block1 button{
+        background-color: black;
+        border-radius: 10px;
+        width: fit-content;
+        border-color: #98e8cd;
+        margin: 50px 0 0 3vw;    
+    }
+    
+    .block1 a{
+        text-decoration: none;
+        color: #98e8cd;
+        padding: 2px 3px 2px 3px;
+    }
+    
+    .self-image img{
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .block2{
+        display: grid;
+        grid-template-columns: 94vw;
+        margin: 50px 3vw 0 3vw;
+        color: white;
+    
+    }
+    
+    .heading{
+        font-family: 'Titillium Web', sans-serif;
+        color: #98e8cd;
+    }
+    
+    .heading h1{
+        font-size: 4vw;
+        line-height: 5px;
+    }
+    
+    .description{
+        display: block;
+        height: fit-content;
+    }
+    
+    .description h2{
+        text-align: justify;
+        font-family: 'Dosis', sans-serif;
+        font-size: 2.5vw;
+        word-spacing: 2px;
+    }
+    
+    
+    .description img{
+        height: 20%;
+        width: 94vw;
+    }
+     
+    .block3{
+        color: white;
+        display: grid;
+        grid-template-columns: 25vw 69vw;
+        margin: 50px 3vw 0 3vw;
+    }
+    
+    .Mhead-block3{
+        grid-column: 1/span 2;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    
+    .Mhead-block3 h1{
+        font-size: 4vw;
+        line-height: 7px;
+    }
+    .Shead-block3{
+        font-family: 'Titillium Web', sans-serif;
+    }
+    
+    .Shead-block3 h2{
+        font-size: 3.5vw;
+        margin-top: 0;
+    }
+    .details-block3{
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .details-block3 h2{
+        font-size: 2.5vw;
+    }
+    
+    .block4{
+        color: white;
+        display: grid;
+        grid-template-columns: 31vw 32vw 31vw;
+        margin: 50px 3vw 0 3vw;
+    }
+    
+    .Mhead-block4{
+        grid-column: 1/span 3;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    
+    .Mhead-block4 h1{
+        font-size: 4vw;
+        line-height: 5px;
+    }
+    
+    .pimg1 h2{
+        font-size: 2vw;
+        font-family: 'Dosis', sans-serif;
+    }
+    .pimg2 h2{
+        font-size: 2vw;
+        font-family: 'Dosis', sans-serif;
+    }
+    .pimg3 h2{
+        font-size: 2vw;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .block4 img{
+        width: 25vw;
+        height: 30vw;
+    }
+    
+    .pimg2{
+        text-align: center;
+        width: 32vw;
+    }
+    
+    .pimg3 h2{
+        text-align: right;
+    }
+    .pimg3 img{
+        float: right;
+    }
+    
+    .block5{
+        color: white;
+        display: flex;
+        margin: 50px 3vw 50px 3vw;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .sub-block5{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+    
+    .sub-block5 h1{
+        font-size: 3.5vw;
+    }
+    
+    .Mheading5{
+        grid-row: 1/span 3;
+        margin-right: 10vw;
+        font-family: 'Courgette', cursive;
+    }
+    
+    .Sheading h2{
+        font-size: 2.5vw;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .sub-block5 img{
+        width: 10%;
+    }
+    
+    .block5{
+        border: 5px;
+        border-color: #98e8cd;
+    }
+    
+} 
+
 .container{
     display: block;
     position:fixed;
