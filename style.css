@@ -218,6 +218,7 @@
 .sub-block5{
     display: grid;
     grid-template-columns: auto auto;
+    margin: 0 3vw 0 3vw;
 }
 
 .sub-block5 h1{
